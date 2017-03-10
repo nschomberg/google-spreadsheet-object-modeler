@@ -1,0 +1,25 @@
+{
+	"name": "google-db",
+	"version": "1.0.0",
+	"description": "A Node.js object modeling tool for data stored in google spreadsheets",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"author": "Nicolas Schomberg",
+	"license": "MIT",
+	"dependencies": {
+		"google-spreadsheet": "^2.0.3",
+		"lodash": "^4.17.4"
+	},
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"grunt-contrib-jshint": "^1.1.0",
+		"grunt-contrib-watch": "^1.0.0",
+		"grunt-jsbeautifier": "^0.2.13",
+		"jshint-stylish": "^2.2.1",
+		"load-grunt-tasks": "^3.5.2",
+		"mocha": "^3.2.0",
+		"sinon": "^1.17.7"
+	}
+}
