@@ -1,11 +1,23 @@
 {
-  "name": "nessie",
-  "version": "1.0.0",
+  "name": "tanuki",
+  "version": "1.0.1",
   "description": "A Node.js object modeling tool for data stored in Google Spreadsheets",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nschomberg/tanuki"
+  },
+  "keywords": [
+    "google-spreadsheet",
+    "odm",
+    "object",
+    "data",
+    "model",
+    "modeling"
+  ],
   "author": "Nicolas Schomberg",
   "license": "MIT",
   "dependencies": {
