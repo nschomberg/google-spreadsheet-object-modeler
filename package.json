@@ -1,5 +1,5 @@
 {
-  "name": "google-db",
+  "name": "nessie",
   "version": "1.0.0",
   "description": "A Node.js object modeling tool for data stored in Google Spreadsheets",
   "main": "index.js",
