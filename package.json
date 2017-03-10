@@ -1,7 +1,7 @@
 {
 	"name": "google-db",
 	"version": "1.0.0",
-	"description": "A Node.js object modeling tool for data stored in google spreadsheets",
+	"description": "A Node.js object modeling tool for data stored in Google Spreadsheets",
 	"main": "index.js",
 	"scripts": {
 		"test": "mocha"
@@ -19,7 +19,6 @@
 		"grunt-jsbeautifier": "^0.2.13",
 		"jshint-stylish": "^2.2.1",
 		"load-grunt-tasks": "^3.5.2",
-		"mocha": "^3.2.0",
-		"sinon": "^1.17.7"
+		"mocha": "^3.2.0"
 	}
 }

@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 
 	// All js files
-	let jsFiles = ['*.js', '*.json', './lib/**/*.js'];
+	let jsFiles = ['*.js', '*.json', './lib/**/*.js', './test/**/*.js'];
 
 	grunt.initConfig({
 
@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 				reporter: require('jshint-stylish'),
 				node: true,
 				expr: true,
+				mocha: true,
 				globals: { // Add global vars here
 					//browser: false,
 				}
