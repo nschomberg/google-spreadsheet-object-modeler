@@ -9,11 +9,11 @@ let Mapping = Database.Mapping;
 
 describe('Mappings', function() {
 
-	it('should map fields', function() {
+  it('should map fields', function() {
 
-	});
+  });
 
-	it('should fail gracefully', function() {
+  it('should fail gracefully', function() {
 
-	});
+  });
 });
