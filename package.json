@@ -4,6 +4,7 @@
   "description": "A Node.js object modeling tool for data stored in Google Spreadsheets",
   "main": "index.js",
   "scripts": {
+    "pretest": "grunt jshint",
     "test": "mocha"
   },
   "repository": {
