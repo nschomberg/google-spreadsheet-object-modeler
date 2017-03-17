@@ -1,8 +1,8 @@
 'use strict';
 
 // Imports
-let mock = require('../mock');
-let Worksheet = mock.Worksheet;
+let db = require('../../../../index');
+let Worksheet = db.Mock.Worksheet;
 
 let fruitSheet = new Worksheet('fruit sheet', '987654321', [{
     fruitname: 'orange',
