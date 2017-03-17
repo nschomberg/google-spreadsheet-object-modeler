@@ -33,7 +33,7 @@ let Worksheet = class Worksheet {
   }
 
   getRows(options, callback) {
-    callback(this.error, this.rows);
+    setTimeout(() => {callback(this.error, this.rows)}, 0);
   }
 };
 module.exports.Worksheet = Worksheet;
